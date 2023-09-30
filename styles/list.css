@@ -1,0 +1,30 @@
+/* Remove default list styles */
+ul.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 23px;
+}
+
+/* Style list items as horizontal elements */
+ul.horizontal-list li {
+    display: inline-block;
+    margin-left: 8px;
+  
+}
+
+/* Style links within list items */
+ul.horizontal-list li a {
+   
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(113, 118, 123);
+
+}
+
+/* Style the links on hover */
+ul.horizontal-list li a:hover {
+    text-decoration: underline;
+    
+}

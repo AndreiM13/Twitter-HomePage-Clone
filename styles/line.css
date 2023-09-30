@@ -1,0 +1,31 @@
+.line-container {
+    width: 300px; 
+    text-align: center; 
+    margin-top: 5px;
+    position: relative;
+    margin-left: 70px;
+    
+}
+
+/* Style the horizontal line */
+.short-line {
+    border: none;
+    height: 2px; 
+    background-color:rgb(113, 118, 123);; 
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+
+
+}
+
+/* Style the text */
+.text {
+    color: white;
+    padding: 5px 10px; 
+    display: inline-block; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

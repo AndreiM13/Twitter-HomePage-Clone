@@ -1,0 +1,71 @@
+
+  .menu{
+
+    margin-left: 5px;
+    height: 400px;
+    width: 600px;
+  }
+
+  .Google,.Apple,.Account,.In{
+  
+    height: 40px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 40px;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 23px
+
+  }
+
+  .Google{
+    margin-top: 10px;
+  }
+
+  .Apple{
+    margin-top: -12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .Account{
+
+    margin-top: -12px;
+    background-color: rgb(29, 155, 240);
+    text-align: center;
+    color: white;
+  }
+
+  .apple-b,.google-b{
+
+    width: 25px; 
+    height: 20px;
+    margin-right: 5px; 
+    background-color: transparent;
+  }
+
+  .In{
+
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    color:rgb(29, 155, 240) ;
+    background-color: transparent;
+    border: 2px solid white;
+  
+
+  }
+
+  .In:hover{
+
+    background-color: rgba(29, 155, 240,0.1) ;
+  }
+
+  .Apple:hover{
+
+
+    background-color: rgba(244,240,236,0.9);
+  }
+
+
+
